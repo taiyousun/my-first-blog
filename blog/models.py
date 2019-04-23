@@ -5,7 +5,7 @@ from django.utils import timezone
 
 # Create your models here.
 
-'''
+
 class Category(models.Model):
     """カテゴリ"""
     name = models.CharField(max_length=255)
@@ -13,7 +13,7 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
-'''
+
 #class：オブジェクトを定義するぜ！名前はPostな！
 #models.Model：ポストはDjango Modelだ！データベースに保存しなきゃ！
 class Post(models.Model):
